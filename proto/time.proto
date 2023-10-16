@@ -1,0 +1,9 @@
+syntax = "proto3";
+option go_package = "github.com/coder/coder/v2/proto";
+
+package coder;
+
+message UnixTime {
+	// Number of microseconds since Jan 1, 1970 UTC
+	int64 micro = 1;
+}
